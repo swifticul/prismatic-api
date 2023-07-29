@@ -9,13 +9,13 @@ This project is provided as-is, without any warranty or guarantee. The user assu
 
 ### Step 1: Clone the Source Code
 
-1. Open your web browser and go to the Prismatic API GitHub repository: https://github.com/swifticul/prismatic-api
+1. Go to the Prismatic API GitHub repository: https://github.com/swifticul/prismatic-api/releases
 
-2. Click on the green "Code" button located near the top-right of the repository page.
+2. Unwrap the "Assets" dropdown on the latest release that you can find.
 
-3. Click on "Download ZIP" from the dropdown menu. This will download the source code as a ZIP file to your computer.
+3. Click on "Source Code (ZIP)". This will download the source code as a ZIP file to your computer.
 
-4. Extract the ZIP file to a location where you can easily access it, like your "Documents" or "Downloads" folder. Once extracted, you'll have a folder named `prismatic-api-master`.
+4. Extract the ZIP file to a location where you can easily access it, like your "Documents" or "Downloads" folder. Once extracted, you'll have a folder named `prismatic-api-[version number]`.
 
 ### Step 2: Install Node.js/npm
 
@@ -32,13 +32,13 @@ This project is provided as-is, without any warranty or guarantee. The user assu
 2. Use the `cd` (change directory) command to navigate to the newly cloned folder `prismatic-api-master`. For example, if you extracted the ZIP file to your "Downloads" folder on Windows, use the following command:
 
    ```
-   cd C:\Users\YourUserName\Downloads\prismatic-api-master
+   cd C:\Users\YourUserName\Downloads\prismatic-api-[version number]
    ```
 
    On macOS or Linux, you can navigate to the "Downloads" folder using:
 
    ```
-   cd ~/Downloads/prismatic-api-master
+   cd ~/Downloads/prismatic-api-[version number]
    ```
 
 ### Step 4: Install Prismatic API dependencies
@@ -70,7 +70,7 @@ https://discordjs.guide/preparations/adding-your-bot-to-servers.html
 Your Discord bot must have administrator privileges and must already be in your Discord server by the time you follow the next step.
 
 ### Step 2: Replace default values
-1. Throughout the files in the root directory, you'll see values like "CHANNEL ID HERE" and "ROLE ID HERE". Please replace those values with the Channel IDs and Role IDs of your liking (You can search how to get these from your own server)
+1. In index.js and imageSender.js, you'll see values like "CHANNEL ID HERE" and "ROLE ID HERE". Please replace those values with the Channel IDs and Role IDs of your liking (You can search how to get these from your own server). I recommend doing this by using the "Find and Replace" feature in your preferred text editor.
 2. Open the "config.json" file, and replace all values with the correct replacements (You should get these values from your bot in https://discord.com/developers/ and the "guild ID" is your own Discord server's ID).
 
 ### Step 3: Run your bot
