@@ -5,6 +5,9 @@
 **READ:**
 This project is provided as-is, without any warranty or guarantee. The user assumes all risks and responsibilities for its usage. I and contributors will not be held liable for any damages or issues caused by the use of this software. THROUGHOURLY read this entire README before asking me questions.
 
+Play the official Discord game where this bot comes from!: https://discord.gg/P7xTUTBdRb
+
+
 ## Installation
 
 ### Step 1: Clone the Source Code
