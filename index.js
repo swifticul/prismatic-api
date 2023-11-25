@@ -72,10 +72,11 @@ client.once(Events.ClientReady, async () => {
 		sendImageMessage(client);
 		repeatFunction(); // Call the function again to start the next cycle.
 	  }, nextInterval);
-	
-  repeatFunction(); // Initial call
   
 };
+
+repeatFunction(); // Initial call
+	
 });
 
 client.on(Events.InteractionCreate, async (interaction) => {
